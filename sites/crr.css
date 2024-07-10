@@ -1,0 +1,12 @@
+body{
+    background-color: #333;
+    color: white;
+}
+h1, h2{
+    color: green;
+}
+#sair{
+    text-align: left;
+    font-size: x-large;
+    color: green;
+}

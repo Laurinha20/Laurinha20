@@ -1,0 +1,30 @@
+body{
+    background-color: #7e7979;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+
+}
+h1, h2{
+    color: green;
+}
+.fundo{
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+}
+a{
+    font-size: x-large;
+    
+}
+footer {
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0;
+    width: 100%;
+    min-height: 100vh;
+
+}

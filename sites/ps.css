@@ -1,0 +1,37 @@
+body {
+    background-image: url('catioro.jpg');
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('catioro.jpg');
+    flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    margin: 0;
+}
+header{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+#menu{
+    padding: 20px;
+    text-align: justify;
+    margin: 2px;
+    flex: 1;
+}
+footer {
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+
+
+
+

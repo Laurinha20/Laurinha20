@@ -1,0 +1,44 @@
+header{
+    background-color:  #333;
+    padding: 10px;
+    border-radius:10px;
+    margin: 0 auto; /* Centraliza o header horizontalmente */
+}
+h1{
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+}
+img{
+    width: 250px; /* Tamanho da imagem - largura */
+    height: 250px; /* Tamanho da imagem - altura*/
+    border-radius: 50%; /* Torna a imagem redonda(tira as pontas) */
+    display: block; /* Para garantir que as margens automáticas funcionem */
+    margin: 0 auto 20px auto; /* Centraliza a imagem e adiciona espaço abaixo */
+    border-color: green;
+    border: 2%;
+    display: flex;
+    justify-content: space-between; /* Alinha os itens ao longo do eixo principal, com espaço entre eles */
+
+
+}
+body{
+    background-color: #7e7979;
+    color: white;
+}
+#sair{
+    font-size: x-large;
+}
+p{
+    font-size: medium;
+}
+footer {
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+    flex-shrink: 0;
+    width: 100%;
+    min-height: 100vh;
+
+}
